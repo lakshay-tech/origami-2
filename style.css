@@ -1,0 +1,30 @@
+h1{
+    color:chartreuse
+}
+.header{
+    background-color: #ab0917;
+    display:flex ;
+    justify-content:space-between ;
+}
+.lucky{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p{
+    text-align: center;
+}
+.lucky img{
+    border: 2px solid black;
+     border-radius: 50px;
+}
+.header :hover{
+    opacity:0.2 ;
+}
+.lucky :hover{
+    opacity:0.2;
+}
